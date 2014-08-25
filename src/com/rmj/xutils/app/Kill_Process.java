@@ -30,13 +30,11 @@ public class Kill_Process {
                 os.writeBytes(Command);
                 os.flush();
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             try {
                 sh.waitFor();
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
     }
@@ -58,13 +56,11 @@ public class Kill_Process {
                 os.writeBytes(Command);
                 os.flush();
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             try {
                 sh.waitFor();
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
     }
