@@ -12,6 +12,7 @@ import com.rmj.xutils.file.FileOperate;
 import java.io.File;
 
 /**
+ * PrinterShare使用方法
  * Created by G11 on 2014/8/28.
  */
 public class PrinterShare {
